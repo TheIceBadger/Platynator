@@ -22,5 +22,4 @@ jobs:
           upstream_sync_repo: TheMouseNest/Platynator
           upstream_sync_branch: main
           target_sync_branch: enemy-in-combat
-          upstream_pull_args: --ff-only
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
